@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="111" height="20" tilewidth="40" tileheight="40" infinite="0" nextlayerid="27" nextobjectid="139">
+ <editorsettings>
+  <export target="queen.lua" format="lua"/>
+ </editorsettings>
+ <properties>
+  <property name="light" type="bool" value="false"/>
+  <property name="name" value="Fountain Entrance"/>
+ </properties>
+ <tileset firstgid="1" source="../tilesets/city_alley.tsx"/>
+ <tileset firstgid="111" source="../tilesets/alley.tsx"/>
+ <tileset firstgid="472" source="../tilesets/street_edges.tsx"/>
+ <tileset firstgid="682" source="../tilesets/test_battleborder.tsx"/>
+ <tileset firstgid="697" source="../tilesets/alley_animated.tsx"/>
+ <tileset firstgid="733" source="../tilesets/alley_buildings_glitch.tsx"/>
+ <tileset firstgid="805" source="../tilesets/bg_dw_mansion_foyer.tsx"/>
+ <group id="16" name="Group 1">
+  <imagelayer id="18" name="Image Layer 2" offsetx="44" offsety="182">
+   <image source="../../../assets/sprites/203_room_dw_mansion_east_4f_b.png" width="1160" height="480"/>
+  </imagelayer>
+  <imagelayer id="20" name="Image Layer 4" offsetx="1504" offsety="200">
+   <image source="../../../assets/sprites/206_room_dw_mansion_top.png" width="2560" height="480"/>
+  </imagelayer>
+  <imagelayer id="24" name="Image Layer 3" offsetx="3276.64" offsety="199">
+   <image source="../../../assets/sprites/blackspace.png" width="687" height="537"/>
+  </imagelayer>
+ </group>
+ <layer id="1" name="tiles" width="111" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1036,1037,44,44,44,44,44,44,44,44,44,0,0,0,0,0,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1048,997,44,44,44,44,44,44,1037,1038,44,0,0,0,0,0,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1048,1009,44,44,44,44,44,44,979,1050,44,0,0,0,0,0,44,0,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1048,1021,44,44,44,44,44,44,998,1050,44,0,0,0,0,0,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1048,998,44,44,44,44,44,44,1010,1050,44,0,0,0,0,0,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1048,1010,44,44,44,44,44,44,979,1050,44,0,0,0,0,0,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1060,1061,44,44,44,44,44,44,1061,1062,44,0,0,0,0,0,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,0,44,44,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup color="#0000ff" id="4" name="collision" opacity="0.5"/>
+ <objectgroup color="#ff0000" id="6" name="paths" opacity="0.5"/>
+ <objectgroup color="#7f00ff" id="3" name="markers">
+  <object id="16" name="kris_start" x="2135" y="484" width="40" height="40"/>
+  <object id="104" name="otherSide" x="2444" y="452.999">
+   <point/>
+  </object>
+  <object id="105" name="spamtonDefeat" x="2465.23" y="490.394">
+   <point/>
+  </object>
+  <object id="107" name="susie_battle" x="2560.5" y="523.084">
+   <point/>
+  </object>
+  <object id="113" name="camera" x="2495.33" y="465">
+   <point/>
+  </object>
+  <object id="114" name="ralsei_battle" x="2521.92" y="500.833">
+   <point/>
+  </object>
+  <object id="115" name="offScreen" x="1606" y="509.333">
+   <point/>
+  </object>
+  <object id="118" name="krisLand" x="2340.67" y="523">
+   <point/>
+  </object>
+  <object id="119" name="noelle_battle" x="2377.25" y="511.5">
+   <point/>
+  </object>
+  <object id="121" name="berdly_battle" x="2359.5" y="503.5">
+   <point/>
+  </object>
+  <object id="124" name="spawn" x="602" y="428" width="40" height="40"/>
+  <object id="127" name="outOfSight" x="2282.67" y="-22">
+   <point/>
+  </object>
+  <object id="130" name="mariReturn" x="3618.33" y="483.667">
+   <point/>
+  </object>
+  <object id="132" name="omoriAway" x="3654" y="54">
+   <point/>
+  </object>
+  <object id="138" name="omori" x="3622" y="572.667">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ff00ff" id="2" name="objects">
+  <object id="100" name="npc" x="2011" y="417">
+   <properties>
+    <property name="actor" value="spamtonneo"/>
+    <property name="cutscene" value="testing_main.sNeoParty"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="102" name="savepoint" x="2239.67" y="450.333" width="40" height="40">
+   <properties>
+    <property name="text1" value="the power of coolboi "/>
+    <property name="text2" value="fills the room (forklift certified)"/>
+    <property name="text3" value="to leave the room go to the right btw"/>
+    <property name="text4" value="oh and also check ur storage"/>
+   </properties>
+  </object>
+  <object id="106" name="npc" x="2066" y="511.333">
+   <properties>
+    <property name="actor" value="ralsei"/>
+    <property name="sprite" value="battle/idle_1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="108" name="fountainfloor" x="2600.05" y="480.653" width="260.558" height="59.0258"/>
+  <object id="112" name="darkfountain" x="2733.33" y="496" width="40" height="40"/>
+  <object id="116" name="npc" x="2221.33" y="30.0003">
+   <properties>
+    <property name="actor" value="berdly"/>
+    <property name="sprite" value="battle/idle_1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="117" name="npc" x="2118" y="37.3333">
+   <properties>
+    <property name="actor" value="noelle"/>
+    <property name="sprite" value="battle/idle_1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="120" name="npc" x="2384.67" y="53.3333">
+   <properties>
+    <property name="actor" value="spamton"/>
+    <property name="sprite" value="dark"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="125" name="script" x="561.835" y="391.666" width="130.667" height="125.333">
+   <properties>
+    <property name="cutscene" value="testing_main.spamton"/>
+   </properties>
+  </object>
+  <object id="126" name="npc" x="2136" y="8">
+   <properties>
+    <property name="actor" value="susie"/>
+    <property name="sprite" value="battle/idle_1"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="131" name="npc" x="3618" y="483">
+   <properties>
+    <property name="actor" value="mariNeo"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="133" name="setflag" x="555.334" y="337" width="163" height="222">
+   <properties>
+    <property name="flag" value="bulletToggleCustom"/>
+    <property name="once" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="134" name="setflag" x="528.834" y="405" width="163" height="80">
+   <properties>
+    <property name="flag" value="noHit"/>
+    <property name="once" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="135" name="savepoint" x="3670" y="455" width="40" height="40">
+   <properties>
+    <property name="text1" value="the power "/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

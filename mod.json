@@ -1,0 +1,43 @@
+{
+    "id": "incidence",
+    "name": "Incidence Spamton Fight",
+    "subtitle": "Made by yeetus",
+
+    "version": "v2: Mari",
+    "engineVer": "v0.7.0-dev",
+
+    "chapter": 2,
+
+    "map": "queen",
+    "party": ["kris"],
+    "inventory": {
+        "items": ["darkburger", "butjuice", "butjuice", "butjuice", "butjuice", "darkburger", "cd_bagel", "cd_bagel", "top_cake", "lightcandy", "lightcandy", "darkburger"],
+        "key_items": ["cell_phone", "shadowcrystal", "egg"],
+        "storage": ["darkburger", "tensionbit"]
+    },
+    "equipment": {
+        "kris": {
+            "weapon": "wood_blade",
+        },
+        "susie": {
+            "weapon": "devilsknife"
+        }
+    },
+
+    "transition": false,
+
+    "quickReload": true,
+    "hidden": false,
+
+    "config": {
+        "kristal": {
+            //"growStrongerChara": "susie",
+
+            //"ralseiStyle": 2
+        },
+        "virovirokun": {
+            "enable_cook": true,
+            "enable_quarantine": false
+        }
+    }
+}
